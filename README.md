@@ -30,11 +30,11 @@ npm install
 ```
 
 ## Tests running
-1. Headless mode is a mode where the browser runs without a graphical user interface. 
+1. Headless mode is a mode where the browser runs without a graphical user interface: 
 ```bash
 npx playwright test newCaseCreationTests.spec.ts --project=chromium
 ```
-2. UI mode with
+2. For UI mode use the command:
 ```bash
 npx playwright test --ui
 ```
