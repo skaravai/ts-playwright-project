@@ -28,3 +28,13 @@ cd ts-playwright-project
 ```bash
 npm install
 ```
+
+## Tests running
+1. Headless mode is a mode where the browser runs without a graphical user interface. 
+```bash
+npx playwright test newCaseCreationTests.spec.ts --project=chromium
+```
+2. UI mode with
+```bash
+npx playwright test --ui
+```
