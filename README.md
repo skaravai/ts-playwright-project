@@ -1,6 +1,3 @@
-
-markdown
-Copy code
 # Playwright TypeScript Project
 
 This project demonstrates how to use Playwright with TypeScript for end-to-end testing.
@@ -19,11 +16,15 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/skaravai/ts-playwright-project.git
+```
 
 2. Navigate to the project directory:
+   
 ```bash
 cd ts-playwright-project
+```
 
 3. Install dependencies:
 ```bash
 npm install
+```
