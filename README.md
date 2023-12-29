@@ -1,6 +1,4 @@
 
-Certainly! Below is an example of a README file for a Playwright TypeScript project, providing instructions on how to run the tests. Make sure to customize it based on your project structure and specific requirements.
-
 markdown
 Copy code
 # Playwright TypeScript Project
