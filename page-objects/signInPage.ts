@@ -8,6 +8,12 @@ export class SignInPage {
         this.page = page
     }
 
+    /**
+    * This method fill out the inline form with user details
+    * @param email - valid email for the test user account
+    * @param password - valid pass for the test user account
+    */
+    
     async signInToAccount(email: string, password: string) {
         const emailInput = this.page.locator('[placeholder="Work email"]')
         const passwordInput = this.page.locator('[placeholder="Password"]')

@@ -8,12 +8,13 @@ export class ProjectsListPage{
         this.page = page
     }
 
-    async createNewProject(){
+    // This method creates a new project
+    
+    async createNewProject() {
         const createNewProjectButton = this.page.locator('#createButton')
         const projectNameInput = this.page.locator('#project-name')
         const projectCodeInput = this.page.locator('#project-code')
         const createProjectButton = this.page.locator('span', { hasText: 'Create project' })
-        //const popupOpened = this.page.locator('h3', { hasText: 'Create new project' })
         await createNewProjectButton.click()
         await projectNameInput.fill(Math.random().toString(36).substring(2,7))
         await projectCodeInput.fill(Math.random().toString(36).substring(3,6))
