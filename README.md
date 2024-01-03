@@ -1,6 +1,6 @@
 # Playwright TypeScript Project
 
-This project demonstrates how to use Playwright with TypeScript for end-to-end testing.
+This project demonstrates how to use Playwright with TypeScript for end-to-end testing using the example of automating a test scenario on a website https://qase.io/
 
 ## Prerequisites
 
