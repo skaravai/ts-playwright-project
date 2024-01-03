@@ -21,7 +21,7 @@ test('Сreation a new test case', async ({ page }) => {
     expect(page.url()).toBe('https://app.qase.io/projects')
 
     // 3. Creating new project
-    await pm.onProjectsListPage().createNewProject() //добавить перемнную
+    await pm.onProjectsListPage().createNewProject()
 
     // 4. Creating new test case in the created project
     let testTitleName = Math.random().toString(36).slice(1, 6)
