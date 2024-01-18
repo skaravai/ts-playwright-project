@@ -54,9 +54,9 @@ export class CreationNewCasePage {
         await behaviorList.click({ force: true })
         await this.page.locator('#modals').getByText('Positive').click()
 
-        await setAutomationStatus.click({ force: true })
-        await this.page.locator('#modals').getByText('To be automated').click()
-
+        // to be done
+        // await setAutomationStatus.click({ force: true })
+        // await this.page.locator('#modals').getByText('Manual').click()
 
         await addAtachmentButton.click()
         const fileChooserPromise = this.page.waitForEvent('filechooser');

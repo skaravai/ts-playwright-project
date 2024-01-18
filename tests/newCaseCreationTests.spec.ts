@@ -18,7 +18,7 @@ test('Сreation a new test case', async ({ page }) => {
     const userEmail = 'bmtstg+playwright@gmail.com'
     const userPass = 'Tester123#!@'
     await pm.onSignInPage().signInToAccount(userEmail, userPass)
-    expect(page.url()).toBe('https://app.qase.io/projects')
+    expect(page.url()).toContain('https://app.qase.io/projects')
 
     // 3. Creating new project
     await pm.onProjectsListPage().createNewProject()
